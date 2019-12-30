@@ -54,8 +54,6 @@ GEM
     childprocess (3.0.0)
     concurrent-ruby (1.1.5)
     crass (1.0.5)
-    erb2haml (0.1.5)
-      html2haml
     erubi (1.9.0)
     erubis (2.7.0)
     execjs (2.7.0)
@@ -189,8 +187,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   capybara (~> 2.13)
-  erb2haml
-  haml-rails (~> 2.0)
+  haml-rails
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   puma (~> 3.7)

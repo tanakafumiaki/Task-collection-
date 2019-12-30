@@ -30,8 +30,7 @@ gem 'jbuilder', '~> 2.5'
 #
 #
 gem 'rb-readline'
-gem "haml-rails", "~> 2.0"
-gem 'erb2haml'
+gem "haml-rails"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
