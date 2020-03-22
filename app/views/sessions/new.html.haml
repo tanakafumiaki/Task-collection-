@@ -5,11 +5,20 @@
     %title LOGIN
   %body
     %login.login
-      %h1.login__title ログイン
-      %h1.login__address メールアドレス
-      %p.login__address-input 入力してください
-      %h1.login__password-title パスワード
-      %p.login__password-input 入力してください
-      %h1.login__login-button ログイン
-      %h1.login__account-button アカウント作成
+      %h1.login__title
+        = t('view.login')
+      %h1.login__address
+        = t('view.address')
+      %p.login__address-input
+        = t('view.input')
+      %h1.login__password-title
+        = t('view.password')
+      %p.login__password-input
+        = t('view.input')
+      %h1.login__login-button
+        = t('view.login')
+      %h1.login__account-button
+        = t('view.account')
+
+
 
