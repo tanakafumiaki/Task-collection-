@@ -1,6 +1,8 @@
 // Place all the styles related to the sessions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import "colors.scss";
+
 .login {
   margin: 0;
   /*グリッド*/
@@ -8,8 +10,8 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(10, 1fr);
-  grid-column-gap: 30px;
-  padding: 30px 30px;
+  grid-column-gap: 10rem;
+  padding: 5rem 5rem;
 }
 
 /*タイトル*/
@@ -25,13 +27,13 @@
 }
 /*アドレス入力欄*/
 .login__address-input {
-  font: 15px/24px sans-serif;
+  font: 1rem/3rem sans-serif;
   box-sizing: border-box;
-  width: 100%;
-  margin: 8px 0;
+  width: 44rem;
+  margin: 1rem 0;
   padding: 0.3em;
   transition: 0.3s;
-  border: 1px solid #1b2538;
+  border: 0.05rem solid $input-color;
   border-radius: 4px;
   outline: none;
   grid-column: 2 / 5;
@@ -45,13 +47,13 @@
 }
 /*パスワード入力欄*/
 .login__password-input {
-  font: 15px/24px sans-serif;
+  font: 1rem/3rem sans-serif;
   box-sizing: border-box;
-  width: 100%;
-  margin: 8px 0;
-  padding: 0.3em;
+  width: 44rem;
+  margin: 1rem 0;
+  padding: 0.03rem;
   transition: 0.3s;
-  border: 1px solid #1b2538;
+  border: 0.05rem solid $input-color;
   border-radius: 4px;
   outline: none;
   grid-column: 2 / 5;
@@ -61,14 +63,14 @@
 /*ログイン*/
 .login__login-button {
   font-weight: bold;
-  border: solid 3px #000000;
+  border: solid 0.05rem $login-color;
   grid-column: 2 / 5;
   grid-row: 9 / 10;
 }
 
 /*アカウント作成*/
 .login__account-button {
-  font-size: 100%;
+  font-size: 1rem;
   grid-column: 5 / 6;
   grid-row: 12 / 13;
 }
